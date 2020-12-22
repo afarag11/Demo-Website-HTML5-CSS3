@@ -1,0 +1,114 @@
+        /* Main rule*/
+
+body {background:#FFF;font-family: Tahoma, Ariel;}
+
+.container {width:940px;margin:20px auto;background:black;}
+
+ul, ol {margin:0;padding:0;list-style:none;}
+
+        /*start header*/
+
+header {min-height:100px;background-color:black;overflow:hidden;}
+
+header .logo {width:20%;}
+
+header .logo img {width:120px;margin:20px 20px 20px 25px;float:left;}
+
+header nav {width:80%;float:right;}
+
+header nav ul {
+    margin:50px;
+    margin-left:0;
+    font-size:17px;
+    margin-top:60px;  
+}
+header nav ul li {
+    display:inline-block;
+    color:#FFF;
+    padding:10px;            
+    color:darkturquoise;
+}
+    /*End header*/
+
+    /*Start Content */
+
+.content {min-height:500px;background-color:aliceblue;overflow:hidden;}
+
+.content .sidebar{
+    float:left;
+    width:25%;
+    margin-right:1%;
+    height:618px;
+    line-height: 1.8;
+    padding-top:7px;
+}
+.content .sidebar .widget {
+    width:88%;
+    background-color:black;
+    border:3px solid #CCC;
+    margin:10px 0 0 10px;
+    padding:0 0 35px 0;
+}
+.content .sidebar .widget .title {
+    background-color:#222;
+    color:#FFF;
+    padding:5px 0;
+    text-align:center;
+    font-weight:bold;
+}
+.content .sidebar .widget .data {text-align:center;font-size:17px;}
+
+.content .sidebar .widget .data ul li {padding-left:10px;color:turquoise;}
+
+.content .sidebar .icons a {color:turquoise;margin: 5px 8px 1px 8px;}
+
+.content .sidebar .icons.active a,
+.content .sidebar .icons a:hover {color:#FFF;}
+
+            /*Start Products*/
+
+.content .products .headline {
+    text-transform:uppercase;
+    color:tomato;
+    text-align:center;
+    margin-right:72px;
+    padding-top:10px;
+    font-size:50px;
+}
+.content .products .bottomline {
+    text-align:center;
+    margin-right:72px;
+    font-size:19px;
+    padding-bottom: 28px;
+    border-bottom-style: solid;
+}
+.content .products {float:right;width:74%;}
+
+.content .products .product {margin:3%;}
+
+.content .products .product .mainline {color:tomato;font-size:20px;}
+
+.products .product .mainline .paragraph {font-size:15px; color:black;}
+
+/*End Content*/
+
+/*Start Footer*/
+
+footer .info {min-height:100px;}
+
+footer .info ul {
+    list-style:none;
+    color:turquoise;
+    text-align:center;
+    line-height:2;   
+}
+.footer .info ul li {margin-top:5px;}
+
+footer .copyright {
+    background-color:#333;
+    padding:10px 0;
+    color:#999;
+    text-align:center;
+}
+
+/*End Footer*/
